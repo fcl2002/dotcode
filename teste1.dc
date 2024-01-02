@@ -1,0 +1,18 @@
+begin 
+    int x |= 5.
+    real y |= 6.
+
+    real z |= x + y.
+    
+    letra aux |= 'a'.
+
+    if(x > y) {
+        x |= 10.
+    }else if (x == y) {
+        y |= y + 1.
+    }
+    else {
+        y |= y - 1.
+    }
+
+end

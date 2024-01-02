@@ -1,0 +1,14 @@
+begin 
+    int x |= 5.
+    real y |= 6.
+    
+    if(x > y) {
+        x |= 10.
+
+        #testando os comandos de entrada e saida
+        if(x == 10) {
+            read y.
+            write "incremento de x: " << x + 1.
+        }
+    }
+end
